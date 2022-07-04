@@ -10,6 +10,7 @@ import Foundation
 @testable import ImageCollection
 import XCTest
 
+
 class SearchUseCaseTests: XCTestCase {
 
     var searchUseCase: SearchUseCase!
@@ -32,7 +33,7 @@ class SearchUseCaseTests: XCTestCase {
     // Invalid Search
     func testInValidSearch() async {
         
-        let photoRecords =   try? await searchUseCase.execute(for: "pass")
+        let photoRecords =   try? await searchUseCase.execute(for: "invalid")
         
          XCTAssertNil(photoRecords)
     }
