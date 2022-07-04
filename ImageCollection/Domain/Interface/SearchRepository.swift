@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol SearchRepository {
+    func getImages(for keyWord: String) async throws -> [PhotoRecord]
+}

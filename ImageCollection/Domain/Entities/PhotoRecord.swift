@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct PhotoRecord: Equatable {
+    let id: Int
+    let previewURL: String
+}
