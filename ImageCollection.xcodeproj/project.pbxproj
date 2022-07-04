@@ -34,6 +34,9 @@
 		8465FD862873138400A24E62 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD852873138400A24E62 /* Storyboardable.swift */; };
 		8465FD88287313DC00A24E62 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD87287313DC00A24E62 /* Alertable.swift */; };
 		8465FD8B2873146300A24E62 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD8A2873146300A24E62 /* MainCoordinator.swift */; };
+		8465FD8E2873152800A24E62 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD8D2873152800A24E62 /* GalleryViewController.swift */; };
+		8465FD902873155600A24E62 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD8F2873155600A24E62 /* GalleryViewModel.swift */; };
+		8465FD922873157C00A24E62 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD912873157C00A24E62 /* GalleryCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,9 @@
 		8465FD852873138400A24E62 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		8465FD87287313DC00A24E62 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 		8465FD8A2873146300A24E62 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		8465FD8D2873152800A24E62 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		8465FD8F2873155600A24E62 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		8465FD912873157C00A24E62 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +257,8 @@
 		8465FD7A2873102400A24E62 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				8465FD8C2873151200A24E62 /* Gallery */,
+				8465FD892873144C00A24E62 /* Coordinator */,
 				8465FD7B2873105000A24E62 /* Utility */,
 			);
 			path = Presentation;
@@ -259,7 +267,6 @@
 		8465FD7B2873105000A24E62 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				8465FD892873144C00A24E62 /* Coordinator */,
 				8465FD82287312BB00A24E62 /* StoryBoards */,
 				8465FD7C287310A300A24E62 /* Localisation */,
 			);
@@ -291,6 +298,16 @@
 				8465FD8A2873146300A24E62 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8465FD8C2873151200A24E62 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8465FD8D2873152800A24E62 /* GalleryViewController.swift */,
+				8465FD8F2873155600A24E62 /* GalleryViewModel.swift */,
+				8465FD912873157C00A24E62 /* GalleryCollectionViewCell.swift */,
+			);
+			path = Gallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,9 +446,11 @@
 				8465FD842873136200A24E62 /* Constants.swift in Sources */,
 				8465FD2A2872FAA600A24E62 /* ViewController.swift in Sources */,
 				8465FD7028730DCA00A24E62 /* Endpoints.swift in Sources */,
+				8465FD922873157C00A24E62 /* GalleryCollectionViewCell.swift in Sources */,
 				8465FD262872FAA600A24E62 /* AppDelegate.swift in Sources */,
 				8465FD282872FAA600A24E62 /* SceneDelegate.swift in Sources */,
 				8465FD5A2873007600A24E62 /* GalleryRepository.swift in Sources */,
+				8465FD902873155600A24E62 /* GalleryViewModel.swift in Sources */,
 				8465FD5F2873010300A24E62 /* GalleryUseCase.swift in Sources */,
 				8465FD622873012C00A24E62 /* PhotoRecord.swift in Sources */,
 				8465FD68287301AB00A24E62 /* DefaultGalleryRepository.swift in Sources */,
@@ -440,6 +459,7 @@
 				8465FD582873005700A24E62 /* SearchRepository.swift in Sources */,
 				8465FD8B2873146300A24E62 /* MainCoordinator.swift in Sources */,
 				8465FD5D287300B800A24E62 /* SearchUseCase.swift in Sources */,
+				8465FD8E2873152800A24E62 /* GalleryViewController.swift in Sources */,
 				8465FD662873017D00A24E62 /* DefaultSearchRepository.swift in Sources */,
 				8465FD6B28730D5A00A24E62 /* PhotoResponseDTO.swift in Sources */,
 				8465FD7428730E1000A24E62 /* APIRequest.swift in Sources */,
