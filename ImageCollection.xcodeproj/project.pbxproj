@@ -30,6 +30,8 @@
 		8465FD7428730E1000A24E62 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD7328730E1000A24E62 /* APIRequest.swift */; };
 		8465FD7928730FCF00A24E62 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD7828730FCF00A24E62 /* URLRequest+Extension.swift */; };
 		8465FD812873113C00A24E62 /* Localisable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8465FD802873113C00A24E62 /* Localisable.strings */; };
+		8465FD842873136200A24E62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD832873136200A24E62 /* Constants.swift */; };
+		8465FD862873138400A24E62 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD852873138400A24E62 /* Storyboardable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		8465FD7328730E1000A24E62 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		8465FD7828730FCF00A24E62 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 		8465FD802873113C00A24E62 /* Localisable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localisable.strings; sourceTree = "<group>"; };
+		8465FD832873136200A24E62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8465FD852873138400A24E62 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +273,8 @@
 			isa = PBXGroup;
 			children = (
 				8465FD2B2872FAA600A24E62 /* Main.storyboard */,
+				8465FD852873138400A24E62 /* Storyboardable.swift */,
+				8465FD832873136200A24E62 /* Constants.swift */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8465FD6E28730DA600A24E62 /* NetworkManager.swift in Sources */,
+				8465FD842873136200A24E62 /* Constants.swift in Sources */,
 				8465FD2A2872FAA600A24E62 /* ViewController.swift in Sources */,
 				8465FD7028730DCA00A24E62 /* Endpoints.swift in Sources */,
 				8465FD262872FAA600A24E62 /* AppDelegate.swift in Sources */,
@@ -420,6 +427,7 @@
 				8465FD662873017D00A24E62 /* DefaultSearchRepository.swift in Sources */,
 				8465FD6B28730D5A00A24E62 /* PhotoResponseDTO.swift in Sources */,
 				8465FD7428730E1000A24E62 /* APIRequest.swift in Sources */,
+				8465FD862873138400A24E62 /* Storyboardable.swift in Sources */,
 				8465FD7228730DEE00A24E62 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
