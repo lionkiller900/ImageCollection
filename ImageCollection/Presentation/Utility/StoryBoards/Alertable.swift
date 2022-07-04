@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol Alertable {}
 public extension Alertable where Self: UIViewController {
