@@ -29,6 +29,7 @@
 		8465FD7228730DEE00A24E62 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD7128730DEE00A24E62 /* APIError.swift */; };
 		8465FD7428730E1000A24E62 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD7328730E1000A24E62 /* APIRequest.swift */; };
 		8465FD7928730FCF00A24E62 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD7828730FCF00A24E62 /* URLRequest+Extension.swift */; };
+		8465FD812873113C00A24E62 /* Localisable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8465FD802873113C00A24E62 /* Localisable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		8465FD7128730DEE00A24E62 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		8465FD7328730E1000A24E62 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		8465FD7828730FCF00A24E62 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		8465FD802873113C00A24E62 /* Localisable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localisable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,8 +252,17 @@
 		8465FD7B2873105000A24E62 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				8465FD7C287310A300A24E62 /* Localisation */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8465FD7C287310A300A24E62 /* Localisation */ = {
+			isa = PBXGroup;
+			children = (
+				8465FD802873113C00A24E62 /* Localisable.strings */,
+			);
+			path = Localisation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +371,7 @@
 			files = (
 				8465FD322872FAA800A24E62 /* LaunchScreen.storyboard in Resources */,
 				8465FD2F2872FAA800A24E62 /* Assets.xcassets in Resources */,
+				8465FD812873113C00A24E62 /* Localisable.strings in Resources */,
 				8465FD2D2872FAA600A24E62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
