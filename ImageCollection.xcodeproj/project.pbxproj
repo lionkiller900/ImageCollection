@@ -33,6 +33,7 @@
 		8465FD842873136200A24E62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD832873136200A24E62 /* Constants.swift */; };
 		8465FD862873138400A24E62 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD852873138400A24E62 /* Storyboardable.swift */; };
 		8465FD88287313DC00A24E62 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD87287313DC00A24E62 /* Alertable.swift */; };
+		8465FD8B2873146300A24E62 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD8A2873146300A24E62 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		8465FD832873136200A24E62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8465FD852873138400A24E62 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		8465FD87287313DC00A24E62 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		8465FD8A2873146300A24E62 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 		8465FD7B2873105000A24E62 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				8465FD892873144C00A24E62 /* Coordinator */,
 				8465FD82287312BB00A24E62 /* StoryBoards */,
 				8465FD7C287310A300A24E62 /* Localisation */,
 			);
@@ -280,6 +283,14 @@
 				8465FD832873136200A24E62 /* Constants.swift */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		8465FD892873144C00A24E62 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8465FD8A2873146300A24E62 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +438,7 @@
 				8465FD7928730FCF00A24E62 /* URLRequest+Extension.swift in Sources */,
 				8465FD88287313DC00A24E62 /* Alertable.swift in Sources */,
 				8465FD582873005700A24E62 /* SearchRepository.swift in Sources */,
+				8465FD8B2873146300A24E62 /* MainCoordinator.swift in Sources */,
 				8465FD5D287300B800A24E62 /* SearchUseCase.swift in Sources */,
 				8465FD662873017D00A24E62 /* DefaultSearchRepository.swift in Sources */,
 				8465FD6B28730D5A00A24E62 /* PhotoResponseDTO.swift in Sources */,
