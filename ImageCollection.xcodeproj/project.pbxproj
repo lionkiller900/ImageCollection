@@ -133,7 +133,6 @@
 				8465FD252872FAA600A24E62 /* AppDelegate.swift */,
 				8465FD272872FAA600A24E62 /* SceneDelegate.swift */,
 				8465FD292872FAA600A24E62 /* ViewController.swift */,
-				8465FD2B2872FAA600A24E62 /* Main.storyboard */,
 				8465FD2E2872FAA800A24E62 /* Assets.xcassets */,
 				8465FD302872FAA800A24E62 /* LaunchScreen.storyboard */,
 				8465FD332872FAA800A24E62 /* Info.plist */,
@@ -252,6 +251,7 @@
 		8465FD7B2873105000A24E62 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				8465FD82287312BB00A24E62 /* StoryBoards */,
 				8465FD7C287310A300A24E62 /* Localisation */,
 			);
 			path = Utility;
@@ -263,6 +263,14 @@
 				8465FD802873113C00A24E62 /* Localisable.strings */,
 			);
 			path = Localisation;
+			sourceTree = "<group>";
+		};
+		8465FD82287312BB00A24E62 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8465FD2B2872FAA600A24E62 /* Main.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
