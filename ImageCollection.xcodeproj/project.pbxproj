@@ -32,6 +32,7 @@
 		8465FD812873113C00A24E62 /* Localisable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8465FD802873113C00A24E62 /* Localisable.strings */; };
 		8465FD842873136200A24E62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD832873136200A24E62 /* Constants.swift */; };
 		8465FD862873138400A24E62 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD852873138400A24E62 /* Storyboardable.swift */; };
+		8465FD88287313DC00A24E62 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465FD87287313DC00A24E62 /* Alertable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		8465FD802873113C00A24E62 /* Localisable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localisable.strings; sourceTree = "<group>"; };
 		8465FD832873136200A24E62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8465FD852873138400A24E62 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		8465FD87287313DC00A24E62 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				8465FD2B2872FAA600A24E62 /* Main.storyboard */,
+				8465FD87287313DC00A24E62 /* Alertable.swift */,
 				8465FD852873138400A24E62 /* Storyboardable.swift */,
 				8465FD832873136200A24E62 /* Constants.swift */,
 			);
@@ -422,6 +425,7 @@
 				8465FD622873012C00A24E62 /* PhotoRecord.swift in Sources */,
 				8465FD68287301AB00A24E62 /* DefaultGalleryRepository.swift in Sources */,
 				8465FD7928730FCF00A24E62 /* URLRequest+Extension.swift in Sources */,
+				8465FD88287313DC00A24E62 /* Alertable.swift in Sources */,
 				8465FD582873005700A24E62 /* SearchRepository.swift in Sources */,
 				8465FD5D287300B800A24E62 /* SearchUseCase.swift in Sources */,
 				8465FD662873017D00A24E62 /* DefaultSearchRepository.swift in Sources */,
